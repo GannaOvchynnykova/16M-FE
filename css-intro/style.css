@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+#myFirstID{
+    color: black;
+    background-color: white;
+}
+.myLovelyParagraf{
+    font-size: 10px;
+    background-color: beige;
+}
+a[href = "http://andron13.de"]{
+    color: deeppink;
+}
+p:hover{
+    background: red;
+}
+p::first-letter{
+color: red;
+font-size: larger;
+text-transform: uppercase;
+}
+p::first-line{
+    color: blue;
+}

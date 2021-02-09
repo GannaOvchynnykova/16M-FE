@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormsTwo</title>
+</head>
+
+<body>
+
+    <form action="mySite.com/form-accept" method="post" class="firstexample">
+        <label for="first-name">First name: </label>
+        <input type="text" name="first-name" id="first-name"> <br>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label>
+    </form>
+
+    <!--one mor-->
+
+    <form action="#" class="mySecondLabel">
+        <label> plz Subscribe
+            <input type="checkbox" name="myCheck" id="myCheck">
+        </label>
+    </form>
+
+    <!--one mor-->
+
+    <form action="" method="post">
+        <label for="color">Favorite color?</label><br>
+        <input name="color" name="myColor" id="myColor" list="myColors">
+    </form>
+
+    <datalist id="myColors">
+        <option>Red</option>
+        <option>Yellow</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Orange</option>
+        <option>Violet</option>
+        <option>White</option>
+        <option>Black</option>
+        <!--one mor-->
+        <option value="Gray">
+    </datalist>
+
+    <form action="" method="post">
+        <p>
+            <input type="text" readonly placeholder="NOT" required>
+        </p>
+        <p>
+            <label> Last Name test:
+                <input type="text" spellcheck="true">
+            </label>
+        </p>
+        <p>
+            <label> Last Name Not test
+                <input type="text" spellcheck="false">
+            </label>
+        </p>
+    </form>
+
+</body>
+
+</html>
