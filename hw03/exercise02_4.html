@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Задача № 4 - Запись на курсы программирования</title>
 </head>
+
 <body>
     <h1>Запись на курсы программирования</h1>
     <hr>
-    <p> Имя: <br>
-        <input type="name" placeholder="Андрей">
-    </p>
-    <p>
-       <input type="radio" checked>Java 
-       <input type="radio"> C++ 
-       <input type="radio"> Python 
-       <input type="radio"> PHP
-       <input type="radio"> JavaScript
-    </p>
-    <p>
-        Дополнительная информация: <br>
-        <input type="text" placeholder="Eсть опыт программирования на Java">
-    </p>
-    <p>
-        Cекретное слово: <br>
-        <input type="password" minlength="9" maxlength="9" value="123456789" > 
-    </p>
-    <p>
-        <input type="checkbox"> C правилами ознакомился и согласен
-    </p>
-    <p>
-        <input type="submit" value="Oтправить"></button>
-        <input type="reset" value = "Oчистить"></button>
-    </p>
+    <form action="#">
+        <p> Имя: <br>
+            <input type="name" placeholder="Андрей">
+        </p>
+        <p>
+            <input type="radio" name="language" checked>Java
+            <input type="radio" name="language"> C++
+            <input type="radio" name="language"> Python
+            <input type="radio" name="language"> PHP
+            <input type="radio" name="language"> JavaScript
+        </p>
+        <p>
+            Дополнительная информация: <br>
+            <textarea name="about" id="about" cols="50" rows="5"
+                placeholder="Eсть опыт программирования на Java"></textarea>
+        </p>
+        <p>
+            Cекретное слово: <br>
+            <input type="password" name="secret" id="secret" value="123456789">
+        </p>
+        <p>
+            <input type="checkbox" name="understand" id="under"> C правилами ознакомился и согласен
+        </p>
+        <p>
+            <input type="submit" value="Oтправить">
+            <input type="reset" value="Oчистить">
+        </p>
+    </form>
     <hr>
     <footer>
         <p>
@@ -40,6 +45,6 @@
         </p>
     </footer>
 
-
 </body>
+
 </html>
