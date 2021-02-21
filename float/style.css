@@ -1,0 +1,16 @@
+body{
+    width: 600px;
+}
+img{
+    width: 250px;
+    float: left;
+}
+.p-clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

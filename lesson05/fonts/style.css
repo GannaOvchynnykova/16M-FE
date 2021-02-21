@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+
+}

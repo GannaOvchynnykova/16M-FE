@@ -1,0 +1,27 @@
+p {
+    font-size: 40px;
+}
+
+.box-one {
+    background-color: tomato;
+    border: 30px solid #9b51e0;
+    padding: 20px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    /*box-sizing: border-box; */
+}
+
+.box-two {
+    background-color: #2d9cdb;
+    border: 30px solid #27ae60;
+    padding: 20px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+}
+
+.box-three {
+    background-color: #48c167;
+    border: 0px solid #e3e014;
+}
